@@ -3,7 +3,7 @@ The two simulators used to test this is reacheable via 18.219.51.6 port 1611 and
 
 The script will be invoked as follows:  
 
-# prober <Agent IP:port:community> <sample frequency> <samples> <OID1> <OID2> ……... <OIDn>   
+                 prober <Agent IP:port:community> <sample frequency> <samples> <OID1> <OID2> ……... <OIDn>   
 
 IP, port, and community are agent details, OIDn are the OIDs to be probed (they are absolute, cf. IF-MIB::ifInOctets.2 for interface 2, or 1.3.6.1.2.1.2.2.1.10.2 [1])   
 Sample frequency (Fs) is the sampling frequency expressed in Hz, you should handle between 10 and 0.1 Hz.  
